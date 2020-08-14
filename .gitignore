@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+*.local
+
+# IDE
+.idea
+
+# Lock files
+yarn.lock
+package-lock.json
+Cargo.lock

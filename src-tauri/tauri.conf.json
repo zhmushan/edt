@@ -8,10 +8,10 @@
   "ctx": {},
   "tauri": {
     "embeddedServer": {
-      "active": true
+      "active": false
     },
     "bundle": {
-      "active": true,
+      "active": false,
       "targets": "all",
       "identifier": "com.tauri.dev",
       "icon": [
@@ -39,7 +39,9 @@
       "exceptionDomain": ""
     },
     "allowlist": {
-      "all": true
+      "all": false,
+      "openDialog": true,
+      "writeFile": true
     },
     "window": {
       "title": "Markdown Editor",

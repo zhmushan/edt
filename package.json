@@ -3,11 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "build": "run-s build:vite build:tauri",
-    "build:vite": "vite build",
     "build:tauri": "tauri build",
-    "dev": "run-p dev:vite dev:tauri",
-    "dev:tauri": "tauri dev",
-    "dev:vite": "vite"
+    "build:vite": "vite build",
+    "tauri": "tauri",
+    "vite": "vite"
   },
   "dependencies": {
     "markdown-it": "^11.0.0",

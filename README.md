@@ -3,7 +3,8 @@
 ## Dev
 
 ```sh
-npm run dev
+npm run vite
+npm run tauri dev
 ```
 
 ## Prod

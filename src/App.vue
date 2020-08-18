@@ -41,35 +41,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-#app {
-  code {
-    color: #f66;
-  }
-
-  #editor {
-    display: flex;
-    width: 50vw;
-
-    textarea {
-      font-family: "Monaco", courier, monospace;
-      font-size: 14px;
-      width: 100%;
-      padding: 20px;
-      border: none;
-      border-right: 1px solid #ccc;
-      resize: none;
-      outline: none;
-      background-color: #f6f6f6;
-      word-break: break-all;
-    }
-  }
-
-  #preview {
-    word-wrap: break-word;
-    width: 50vw;
-    padding: 0 20px;
-  }
-}
-</style>

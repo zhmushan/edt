@@ -8,10 +8,10 @@
   "ctx": {},
   "tauri": {
     "embeddedServer": {
-      "active": false
+      "active": true
     },
     "bundle": {
-      "active": false,
+      "active": true,
       "targets": "all",
       "identifier": "com.tauri.dev",
       "icon": [

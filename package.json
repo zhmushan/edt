@@ -9,6 +9,7 @@
     "vite": "vite"
   },
   "dependencies": {
+    "highlight.js": "10.1.2",
     "markdown-it": "^11.0.0",
     "vue": "^3.0.0-rc.1"
   },

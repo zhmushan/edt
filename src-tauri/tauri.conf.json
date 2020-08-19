@@ -41,7 +41,9 @@
     "allowlist": {
       "all": false,
       "openDialog": true,
-      "writeFile": true
+      "writeFile": true,
+      "notification": true,
+      "readTextFile": true
     },
     "window": {
       "title": "Markdown Editor",
